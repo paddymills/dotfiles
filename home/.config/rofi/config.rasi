@@ -32,7 +32,7 @@
     border: 0;
     padding: 5ch;
 
-    border-radius: 10px;
+    // border-radius: 10px;
 }
 
 #mainbox {

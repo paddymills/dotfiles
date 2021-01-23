@@ -1,0 +1,13 @@
+#!/bin/bash
+
+xfreerdp $@ /f				\
+	/floatbar:show:always	\
+    /multimon	 			\
+	/cert:ignore			\
+	/sound					\
+	/mic					\
+	/u:pmiller1 			\
+	/d:HIGH 				\
+	"/p:ranch crusher 8*" 	\
+	/v:W9250				\
+	/g:XENAPPSERV.HIGH.NET	\

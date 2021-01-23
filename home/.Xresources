@@ -1,0 +1,17 @@
+
+#include ".Xresources.d/tokyo-night"
+
+Xft.autohint: 1
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.lcdfilter: lscddefault
+
+XTerm*faceName: HackNF
+XTerm*faceSize: 11
+XTerm*loginShell: true
+XTerm*saveLines: 4096
+XTerm*alternateScroll: true
+XTerm*scrollLines: 5
+

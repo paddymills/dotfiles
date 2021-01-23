@@ -1,0 +1,19 @@
+#!/bin/bash
+
+hc() {
+    herbstclient "$@"
+}
+
+index=$(( $1 * 2 ))
+
+hc focus_monitor 0
+hc use_index $index
+hc focus_monitor 1
+hc use_index $(( $index + 1 ))
+
+hc focus_monitor 0
+
+# emit ipc message to polybar for update
+polybar-msg hook ws1 1
+polybar-msg hook ws2 1
+
